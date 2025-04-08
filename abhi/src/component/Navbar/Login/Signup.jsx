@@ -3,11 +3,11 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Signup = () => {
-  //ye state hai data ko backend pe send karne ke liye ha nav me usrsername chaiye yaha se props ya kuchh karke wha pass karna hai
-  const [name, setname] = useState("");//ye dekh ye name hai na isko navbar me pass karna hai // login hone ke baad dikhna hai naha
+
+  const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate(); 
 
   const handelSubmit = (e) => {
     e.preventDefault();
@@ -16,12 +16,12 @@ const Signup = () => {
       .post("http://localhost:3000/", { name, email, password })
       .then((result) => {
         console.log(result.data);
-        // After successful signup, navigate to the login page
+     
         navigate("/login");
       })
       .catch((err) => {
         console.log(err);
-        // Handle error (show a toast or error message)
+      
       });
   };
 

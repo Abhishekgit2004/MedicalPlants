@@ -8,7 +8,7 @@ import context from "../../context/Context";
 const Navbar = () => {
   const mobile = useRef();
   const ham = useRef();
-  const {name} = useContext(context); //ye line se display kar skta hai pure application me khi bhi oo achha tune ek data banaya our usko globally kiya our name rsult.name set karake yaha pe davalue dala ab ye har jaga dal sakta hu sahi na ha yhi context api hai to manage state globally mast itna to mere dimaga me tha hi nahihahaha kya project hai?medical plant
+  const {name} = useContext(context); 
   console.log(name);
   
   
