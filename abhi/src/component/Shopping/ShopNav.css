@@ -1,0 +1,93 @@
+.Navmain{
+    width: 95%;
+    height: 60px;
+    background: #dd5252;
+    border-radius: 50px;
+    background: #a4f599;
+    box-shadow:  -50px -50px 100px #76b06e,
+                 50px 50px 100px #d2ffc4;
+  
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rightshopNav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        gap: 50px;
+    font-weight: 600;
+    color: rgb(12, 45, 31);
+    
+}
+.rightshopNav ul li{
+    /* background: #072507; */
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(7, 53, 18);
+    font-weight: 700;
+    font-size: larger;
+}
+
+.leftshopNav {
+    width: 100px;
+    
+   
+    cursor: pointer;
+    /* background: none; */
+    border: none;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.leftshopNav button{
+    height: 100%;
+    width: 45px;
+    background: none;
+    border: none;
+
+}
+.shopicon{
+    height: 100%;
+    width: 100%;
+ 
+}
+ .h1{
+   
+    height: 35px;
+    width: 35px;
+    background: red;
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 60px;
+  
+
+   
+    
+   
+    
+    
+}
+.leftshopNav p{
+   font-size: 30px;
+
+
+}
+
+

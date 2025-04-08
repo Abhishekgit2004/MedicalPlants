@@ -1,0 +1,100 @@
+
+.information{
+   height: 100%;
+   max-width: 1521px;
+    background-image: url("/bg.png");
+    background-size: cover;
+    background: rgb(7, 28, 7);
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.info1{
+    margin-top: 30px;
+display: flex;
+flex-direction: row;
+gap: 30px;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background: #000;
+    width: 45%;
+    height: 200px;
+    /* width: 50%; */
+    height: 50vh;
+    border: 0.66px solid;
+  
+    border-image-source: radial-gradient(
+        80.69% 208.78% at 108.28% 112.58%,
+        #eabfff 0%,
+        rgba(135, 38, 183, 0) 100%
+      ),
+      radial-gradient(
+        80.38% 222.5% at -13.75% -12.36%,
+        #98f9ff 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+  
+    background: url(.png),
+      radial-gradient(
+        90.16% 143.01% at 15.32% 21.04%,
+        rgba(165, 239, 255, 0.2) 0%,
+        rgba(110, 191, 244, 0.0447917) 77.08%,
+        rgba(70, 144, 213, 0) 100%
+      );
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(13.1842px);
+  
+    border-radius: 20px;
+  
+    display: flex;
+    padding: 8px;
+  
+}
+/* .inforight{
+    width: 40%;
+
+}
+.infoleft{
+    width: 70%;
+} */
+ .infoleft{
+display: flex;
+flex-direction: column;
+gap: 20px;
+ }
+ .infoleft h1{
+    text-align: start;
+ }
+.inforight img{
+    height: 200px;
+    width: 200px;
+}
+.infoleft h4{
+    color: rgb(39, 196, 39);
+}
+@media (max-width:750px) {
+    .info{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .inforight img{
+        height: 100px;
+        width: 100px;
+    }
+        .infoleft{
+            gap: 10px;
+        }
+        .infoleft h1{
+            text-align: center;
+         }
+}

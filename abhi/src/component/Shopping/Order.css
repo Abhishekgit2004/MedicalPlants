@@ -1,0 +1,19 @@
+
+.orderMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    background: rgb(7, 59, 78);
+    height: 200px;
+    color: wheat;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+
+.orderImage{
+    height: 190px;
+    width: 200px;
+
+}

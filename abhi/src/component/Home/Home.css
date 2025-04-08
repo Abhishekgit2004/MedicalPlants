@@ -1,0 +1,191 @@
+#home {
+   width: 100%;
+   height: 100vh;
+   background: rgb(37, 67, 9);
+   background: linear-gradient(90deg, rgba(37, 67, 9, 1) 40%, rgba(0, 0, 0, 0) 100%);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: start;
+   /* margin-top: 70px; */
+   /* padding-top: 70px; */
+}
+
+.righthome {
+   height: 93vh;
+   width: 39%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 90px;
+   /* flex-flow: row-reverse; */
+}
+
+#home img {
+   height: 100%;
+   /* width: 90%; */
+
+
+}
+
+.lefthome {
+   align-items: center;
+   width: 60%;
+   /* padding: 40px; */
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+
+}
+
+.lefthome h1 {
+   font-size: 7vw;
+   color: white;
+   font-weight: 700;
+   text-align: center;
+}
+
+.lefthome h {
+   background: linear-gradient(to right, rgb(183, 255, 39), rgb(48, 255, 124));
+   background-clip: text;
+   color: transparent;
+}
+
+.lefthome p {
+   color: white;
+   font-size: large;
+   font-weight: 600;
+   /* margin-top: 90px; */
+   text-align: center;
+}
+
+.homecard {
+   display: flex;
+   flex-direction: row;
+   gap: 80px;
+}
+
+.flower {
+   height: 25vh;
+   width: 30vh;
+   border-radius: 37px;
+   background: #ece9e9d8;
+
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+}
+
+.plant {
+   height: 25vh;
+   width: 30vh;
+   border-radius: 37px;
+   background: #ece9e9d8;
+
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+
+}
+
+.contain img {
+   height: 30px;
+   width: 90px;
+
+}
+
+.contain {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   height: 75px;
+}
+
+.flower p {
+   color: black;
+}
+
+
+.inbtn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   top: 15px;
+   height: 40px;
+}
+
+.flower button {
+   width: 35%;
+   bottom: 20px;
+   background: rgb(255, 31, 68) ;
+   color: white;
+   height: 20px;
+   font-weight: 600;
+   border: none;
+   border-radius: 8px;
+
+
+}
+
+.flower h1 {
+   font-size: 30px;
+   color: rgb(255, 31, 68);
+}
+
+.plant p {
+   color: black;
+}
+
+.plant button {
+   width: 35%;
+   top: 30px;
+   background: green;
+   color: white;
+   height: 30px;
+   font-weight: 600;
+   border: none;
+   border-radius: 10px;
+
+
+}
+
+.plant h1 {
+   font-size: 30px;
+   color: rgb(26, 139, 3);
+}
+
+@media (max-width:1050px) {
+   #home {
+      flex-direction: column-reverse;
+      /* position: relative; */
+      height: 150vh;
+      justify-content: center;
+      background: rgb(37, 67, 9);
+      background: linear-gradient(360deg, rgba(37, 67, 9, 1) 40%, rgba(0, 0, 0, 0) 100%);
+      width: 100%;
+
+   }
+
+   .lefthome {
+      height: 100vh;
+      width: 100%;
+      align-items: center;
+   }
+
+   .righthome {
+      height: 50vh;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+   }
+
+   .homecard {
+      flex-direction: column;
+   }
+
+}

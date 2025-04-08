@@ -1,0 +1,93 @@
+.banner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannertool{
+    height: 90vh;
+    width: 90%;
+    /* border-radius: 37px; */
+    background: #ece9e9d8;
+    border-radius: 27px;
+background: #ffc5c5;
+box-shadow:  29px 29px 58px #5a5a5a,
+             -29px -29px 58px #ffffff;
+                 display: flex;
+                 flex-direction: row;
+                 align-items: center;
+                 justify-content: space-between;
+}
+
+.info-button{
+    background: rgb(23, 119, 23);
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.rightbanner{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    
+}
+.leftbanner{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftbanner h1{
+    font-size: 7vw;
+    color: rgb(8, 82, 8);
+    text-align: center;
+}
+.leftbanner p{
+   background: linear-gradient(to right,rgb(121, 155, 54),rgb(8, 45, 156));
+   background-clip: text;
+   color: transparent;
+   font-weight: 700;
+   font-size: larger;
+}
+.leftbanner button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    /* font-size: medium; */
+    background: rgb(18, 141, 18);
+}
+@media (max-width:1050px) {
+    .bannertool{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .leftbanner{
+        height: 60vh;
+        width: 100%;
+        text-align: center;
+    }
+    .rightbanner{
+        height: 40vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightbanner img{
+        width: 300px;
+    }
+}
