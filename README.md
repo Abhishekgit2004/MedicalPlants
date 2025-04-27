@@ -1,5 +1,5 @@
 
-# palnts and Infromation
+# plants and Infromation
 
 A website to purchase a plant as well as read  infromation of the plants.which is very short words and more infromational to 
 research
