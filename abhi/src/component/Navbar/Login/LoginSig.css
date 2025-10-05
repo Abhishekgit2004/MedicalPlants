@@ -1,0 +1,86 @@
+.Loginmain{
+   height: calc(100vh - 70px);
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://wallpapershome.com/images/pages/pic_h/19901.jpg");
+     background-size: cover;     /* makes it fill the screen */
+  background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+.login {
+  margin-top: 50px;
+  padding: 12px 50px;
+  background: rgba(255, 255, 255, 0.1);  /* slight translucency */
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 
+    0 4px 30px rgba(0, 0, 0, 0.3),       /* soft outer shadow */
+    0 0 20px rgba(0, 255, 204, 0.4);      /* soft glow */
+  -webkit-backdrop-filter: blur(10px);    /* Safari/iOS */
+  backdrop-filter: blur(3px);            /* standard */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.login:hover {
+  box-shadow: 
+    0 6px 40px rgba(0, 0, 0, 0.4),        /* stronger shadow on hover */
+    0 0 25px rgba(0, 255, 204, 0.6);      /* brighter glow */
+  transform: translateY(-2px);             /* subtle lift */
+}
+
+
+
+
+  
+  .loginFrom{
+   
+    /* margin-top: 120px; */
+    display: flex;
+    flex-direction: column;
+   height: 100% ;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .loginFrom input{
+    height: 50px;
+    width: 220px;
+    background: transparent;
+    font-weight: 600;
+    font-size: medium;
+  color: white
+  }
+  .loginFrom button{
+    padding: 10px 19px;
+    background: rgba(0, 255, 8, 0.2);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+  }
+  .btn{
+    height: 30px;
+    width: 80px;
+    margin: 0 auto;
+        background: rgba(0, 255, 8, 0.2);
+
+    color: wheat;
+    
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+  }
+
+  input::placeholder {
+  color: #d6c7c7;       /* placeholder text color */
+  opacity: 1;        /* default is 0.5, make it fully visible */
+  font-style: italic;
+}
